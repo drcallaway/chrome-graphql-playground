@@ -16,7 +16,7 @@ function createApolloLink(session) {
   const link = new HttpLink({
     uri: session.endpoint,
     headers: session.headers,
-    credentials: 'include'
+    credentials: session.credentials
   });
 
   return { link };
@@ -26,7 +26,10 @@ class ChromeGraphqlPlayground extends React.Component {
   render() {
     return (
       <Provider store={store}>
-        <Playground endpoint={this.props.endpoint} createApolloLink={createApolloLink} />
+        <Playground
+          endpoint={this.props.endpoint}
+          createApolloLink={createApolloLink}
+        />
       </Provider>
     );
   }
