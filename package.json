@@ -10,7 +10,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "zip": "zip -r ../chrome-graphql-playground.zip manifest.json package.json cgp.html LICENSE README.md cgp.html src/background.js public dist"
+    "zip": "zip -r ../chrome-graphql-playground.zip manifest.json package.json cgp.html LICENSE README.md cgp.html src/background.js public dist",
+    "release": "yarn version && git push --follow-tags"
   },
   "dependencies": {
     "apollo-link-http": "^1.5.4",
