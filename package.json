@@ -5,13 +5,13 @@
     "name": "Dustin R. Callaway",
     "email": "drcallaway@gmail.com"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
     "zip": "yarn build && zip -r ../chrome-graphql-playground.zip manifest.json package.json cgp.html LICENSE README.md cgp.html src/background.js public dist",
-    "release": "echo 'Remember to update and stage the version number manifest.json first!' && yarn version && git push --follow-tags"
+    "release": "echo 'Remember to update and stage the version number in manifest.json first!' && yarn version && git push --follow-tags"
   },
   "dependencies": {
     "apollo-link-http": "^1.5.4",
