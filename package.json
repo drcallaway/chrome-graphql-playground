@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "zip": "zip -r ../chrome-graphql-playground.zip manifest.json package.json cgp.html LICENSE README.md cgp.html src/background.js public dist",
+    "zip": "yarn build && zip -r ../chrome-graphql-playground.zip manifest.json package.json cgp.html LICENSE README.md cgp.html src/background.js public dist",
     "release": "echo 'Remember to update and stage the version number manifest.json first!' && yarn version && git push --follow-tags"
   },
   "dependencies": {
