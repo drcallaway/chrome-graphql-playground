@@ -5,7 +5,7 @@
     "name": "Dustin R. Callaway",
     "email": "drcallaway@gmail.com"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
