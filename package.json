@@ -14,10 +14,10 @@
     "release": "echo 'Remember to update and stage the version number in manifest.json first!' && yarn version && git push --follow-tags"
   },
   "dependencies": {
-    "apollo-link-http": "^1.5.4",
-    "cuid": "^2.1.1",
+    "apollo-link-http": "^1.5.17",
+    "cuid": "^2.1.8",
     "graphql-playground-react": "^1.7.2",
-    "react-redux": "^5.0.7"
+    "react-redux": "^7.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
