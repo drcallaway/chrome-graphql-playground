@@ -5,7 +5,7 @@
     "name": "Dustin R. Callaway",
     "email": "drcallaway@gmail.com"
   },
-  "version": "1.1.1",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -16,7 +16,7 @@
   "dependencies": {
     "apollo-link-http": "^1.5.17",
     "cuid": "^2.1.8",
-    "graphql-playground-react": "^1.7.2",
+    "graphql-playground-react": "^1.7.23",
     "react-redux": "^7.2.1"
   },
   "devDependencies": {
