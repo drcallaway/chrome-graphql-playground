@@ -4,3 +4,5 @@ Chrome extension for [GraphQL Playground](https://github.com/prisma/graphql-play
 ![](screenshots/light.png)
 
 ![](screenshots/dark.png)
+
+![image](https://user-images.githubusercontent.com/1755680/114071097-07072f00-98a1-11eb-963a-f85dd89eedaf.png)
