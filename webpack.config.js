@@ -9,10 +9,10 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx|flow)$/,
+        test: /\.(js|jsx)$/,
         loader: 'babel-loader',
         options: {
-          presets: ['stage-2', 'env', 'react']
+          presets: ['@babel/preset-env', '@babel/preset-react']
         }
       },
       {

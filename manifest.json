@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "GraphQL Playground for Chrome",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Chrome extension for GraphQL Playground",
   "background": {
     "scripts": ["src/background.js"],
@@ -22,7 +22,6 @@
   },
   "permissions": [
     "http://*/",
-    "https://*/",
-    "storage"
+    "https://*/"
   ]
 }

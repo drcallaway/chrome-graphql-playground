@@ -5,7 +5,7 @@
     "name": "Dustin R. Callaway",
     "email": "drcallaway@gmail.com"
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -14,20 +14,16 @@
     "release": "echo 'Remember to update and stage the version number in manifest.json first!' && yarn version && git push --follow-tags"
   },
   "dependencies": {
-    "apollo-link-http": "^1.5.17",
-    "cuid": "^2.1.8",
-    "graphql-playground-react": "^1.7.23",
-    "react-redux": "^7.2.1"
+    "apollo-link-http": "1.5.4",
+    "cuid": "2.1.1",
+    "graphql-playground-react": "1.7.2",
+    "react-redux": "5.0.7"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
     "graphql": "^0.13.2",

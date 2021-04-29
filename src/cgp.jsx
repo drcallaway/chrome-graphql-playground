@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import { Playground, store } from 'graphql-playground-react'
 import { HttpLink } from 'apollo-link-http';
 
-const DEFAULT_ENDPOINT = 'https://api.graph.cool/simple/v1/swapi';
+const DEFAULT_ENDPOINT = 'https://graphql-pokemon2.vercel.app';
 
 /**
  * Override default Apollo link in order to force credentials value to "include" in order to allow
@@ -37,5 +37,5 @@ class ChromeGraphqlPlayground extends React.Component {
 
 ReactDOM.render(
   <ChromeGraphqlPlayground endpoint={DEFAULT_ENDPOINT} />,
-  document.body
+  document.getElementById('app')
 );
