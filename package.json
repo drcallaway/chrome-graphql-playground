@@ -16,7 +16,7 @@
   "dependencies": {
     "apollo-link-http": "1.5.4",
     "cuid": "2.1.1",
-    "graphql-playground-react": "1.7.2",
+    "graphql-playground-react": "1.7.27",
     "react-redux": "5.0.7"
   },
   "devDependencies": {
